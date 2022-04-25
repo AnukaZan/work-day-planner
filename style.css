@@ -4,6 +4,15 @@ body {
   line-height: 1;
 }
 
+.list-item p{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
 textarea{
   background: transparent;
   border: none;
