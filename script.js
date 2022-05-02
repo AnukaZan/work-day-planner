@@ -27,6 +27,24 @@ function auditTime(){
     })
 }
 
+//retreive saved tasks
+function loadTasks(){
+
+    // $(".text").each(function(){
+    //     var taskTime = 
+    // })
+    
+//save textarea as the value in localStorage with time as ""
+    $("#9 .text").val(localStorage.getItem("9")); 
+    $("#10 .text").val(localStorage.getItem("10"));
+    $("#11 .text").val(localStorage.getItem("11"));
+    $("#12 .text").val(localStorage.getItem("12"));
+    $("#13 .text").val(localStorage.getItem("13"));
+    $("#14 .text").val(localStorage.getItem("14"));
+    $("#15 .text").val(localStorage.getItem("15"));
+    $("#16 .text").val(localStorage.getItem("16"));
+    $("#17 .text").val(localStorage.getItem("17"));
+}
 
  //if saveBtn is clicked
 $(".saveBtn").on("click", function(){
@@ -36,18 +54,8 @@ $(".saveBtn").on("click", function(){
 })
 
 
-
 $(document).ready(function(){
     auditTime(); //check if time has passed or not
-
-    //load tasks
-    $("#9 .text").val(localStorage.getItem("9"));
-    $("#10 .text").val(localStorage.getItem("10"));
-    $("#11 .text").val(localStorage.getItem("11"));
-    $("#12 .text").val(localStorage.getItem("12"));
-    $("#13 .text").val(localStorage.getItem("13"));
-    $("#14 .text").val(localStorage.getItem("14"));
-    $("#15 .text").val(localStorage.getItem("15"));
-    $("#16 .text").val(localStorage.getItem("16"));
-    $("#17 .text").val(localStorage.getItem("17"));
+    loadTasks(); //load previously saved tasks
+    
 });
