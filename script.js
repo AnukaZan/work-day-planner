@@ -1,4 +1,4 @@
-var tasks = {};
+
 //set today's date
 $("#currentDay").text(moment().format("dddd, MMMM DD"));
 
