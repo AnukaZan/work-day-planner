@@ -12,7 +12,7 @@ Schedule your day hour by hour with signifiers for hours that passed.
 
 ## Website
 https://anukazan.github.io/work-day-planner/
-![Website screenshot](https://anukazan.github.io/work-day-planner/screenshot.png)
+![Website screenshot](screenshot.png)
 
 ## Contribution
 Made with ❤️ by Anuka
